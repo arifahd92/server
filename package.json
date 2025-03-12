@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "npm run dev": "node --watch index",
-      "dev": "node --watch index"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "echo \"No build step required\""
   },
   "keywords": [],
   "author": "",
